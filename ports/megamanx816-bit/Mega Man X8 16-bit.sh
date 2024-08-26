@@ -30,6 +30,7 @@ export XDG_CONFIG_HOME="$CONFDIR"
 export XDG_DATA_HOME="$CONFDIR"
 
 cd $GAMEDIR
+> "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
 
 runtime="frt_3.5.2"
 if [ ! -f "$controlfolder/libs/${runtime}.squashfs" ]; then
