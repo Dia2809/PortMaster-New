@@ -1,28 +1,33 @@
 {
-    "version": 2,
-    "name": "iconoclasts.zip",
-    "items": [
-        "iconoclasts/",
-        "Iconoclasts.sh"
+  "version": 3,
+  "name": "iconoclasts.zip",
+  "items": [
+    "Iconoclasts.sh",
+    "iconoclasts"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Iconoclasts",
+    "porter": [
+      "Johnny on Flame"
     ],
-    "items_opt": null,
-    "attr": {
-        "title": "Iconoclasts",
-        "desc": "A platformer that offers fun and wacky gameplay.  Recommended only for 640x480 devices or better.",
-        "inst": "You must have a copy of Iconoclasts for Linux copied to the ports/iconoclasts/gamedata folder.  Be sure the folder contains subfolders named 32, 64 and data.",
-        "genres": [
-            "action",
-            "adventure"
-        ],
-        "porter": [
-            "Johnny on Flame"
-        ],
-        "image": {},
-        "rtr": false,
-        "runtime": null,
-        "reqs": [],
-        "arch": [
-            "armhf"
-        ]
-    }
+    "desc": "Iconoclasts is a captivating action-adventure game that follows the journey of Robin, a mechanic who battles against a tyrannical religious authority in a beautifully crafted pixel art world.",
+    "desc_md": null,
+    "inst": "You must have a copy of Iconoclasts for Linux copied to the ports/iconoclasts/gamedata folder.  Be sure the folder contains subfolders named bin32, bin64 and data.",
+    "inst_md": null,
+    "genres": [
+      "action"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": null,
+    "reqs": [
+      "!lowres"
+    ],
+    "arch": [
+      "armhf"
+    ],
+    "min_glibc": ""
+  }
 }
